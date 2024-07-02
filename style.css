@@ -142,6 +142,18 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+  }
+  
   .container {
     width: 100%;
     max-width: 100%;
